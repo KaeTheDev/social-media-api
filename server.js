@@ -5,3 +5,5 @@ const { MongoClient } = require('mongodb');
 const app = express();
 
 const PORT = process.env.PORT || 3001;
+
+const uri = process.env.MONGO_URI;
